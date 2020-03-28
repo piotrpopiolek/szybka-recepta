@@ -48,6 +48,10 @@ Global Styles
 =======================
  */
 
+.reg_colored {
+    color: #c02942;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -905,7 +909,7 @@ Our Choose
     text-align: center;
     font-size: 46px;
     padding-bottom: 0px;
-    color: #7080f5;
+    color: #c02942;
 }
 
 .choose .box-col .icon p i {
@@ -1008,8 +1012,8 @@ Service Start
 }
 
 .service .media:hover {
-    background: #7080f5;
-    border-color: #7080f5;
+    background: #333;
+    border-color: #333;
 }
 
 .service .media .media-body {
@@ -1816,7 +1820,7 @@ Emergency
 }
 
 .emergency .left-part .part .icon p {
-    color: #7080f5;
+    color: #c02942;
     font-size: 52px;
     text-align: center;
 }
@@ -1856,7 +1860,7 @@ Emergency
 }
 
 .emergency .right-part .part .icon p {
-    color: #7080f5;
+    color: #c02942;
     font-size: 50px;
     text-align: center;
 }
