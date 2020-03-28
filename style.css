@@ -1020,7 +1020,7 @@ Service Start
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 15px;
-    color: #7080f5;
+    color: #c02942;
 }
 
 .service .media .media-body p {
@@ -1796,7 +1796,7 @@ Emergency
 
 .emergency .left-part .part .text h2 {
     font-size: 20px;
-    color: #7080f5;
+    color: #c02942;
     padding-top: 10px;
     text-align: right;
 }
@@ -1838,7 +1838,7 @@ Emergency
 
 .emergency .right-part .part .text h2 {
     font-size: 20px;
-    color: #7080f5;
+    color: #c02942;
     padding-top: 10px;
 }
 
