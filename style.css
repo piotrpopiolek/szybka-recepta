@@ -48,10 +48,6 @@ Global Styles
 =======================
  */
 
-.reg_colored {
-    color: #c02942;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -139,7 +135,7 @@ body {
 .heading-col .border {
     width: 80px;
     height: 2px;
-    background: #7080f5;
+    background: #c02942;
     display: inline-block;
 }
 
@@ -311,7 +307,7 @@ header top
 */
 
 .heading-bar {
-    background: #7080f5;
+    background: white;
     padding: 5px 0px;
 }
 
@@ -325,7 +321,7 @@ header top
 .heading-bar .social ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: #fff;
+    color: #c02942;
     text-align: center;
 }
 
@@ -342,7 +338,7 @@ header top
 
 .heading-bar .social ul li a i:hover {
     background: #fff;
-    color: #7080f5;
+    color: #444444;
 }
 
 .heading-bar .call-part {
@@ -362,7 +358,7 @@ header top
 }
 
 .heading-bar .call-part .icon i {
-    color: #7080f5;
+    color: #444444;
 }
 
 .heading-bar .call-part .text {
@@ -371,7 +367,7 @@ header top
 }
 
 .heading-bar .call-part .text h3 {
-    color: #fff;
+    color: #444444;
     font-size: 15px;
     font-family: 'montserrat_regular';
     padding-top: 4px;
@@ -432,7 +428,7 @@ Sticky Header
 
 header.sticky {
     position: fixed;
-    background: #fff;
+    background: #c02942;
     left: 0;
     top: 0;
     width: 100%;
@@ -495,7 +491,7 @@ DropDown Menu
 }
 
 .sf-menu li.current-menu-item a {
-    color: #7080f5;
+    color: white;
 }
 
 .sf-menu li {
@@ -507,7 +503,7 @@ DropDown Menu
     min-width: 170px;
     height: auto;
     line-height: 30px;
-    background: #7080f5;
+    background: #c02942;
     color: #fff;
     margin-right: 0;
     border-bottom: 1px solid #f6f6f6;
@@ -522,7 +518,7 @@ DropDown Menu
 }
 
 .sf-menu li li:hover {
-    background: #f6f6f6;
+    background: #c02942;
 }
 
 .sf-menu li li:hover>ul {
@@ -556,7 +552,7 @@ DropDown Menu
 }
 
 .sf-menu li li li {
-    background: #7080f5;
+    background: #c02942;
     border-left: 1px solid #f6f6f6;
     margin-left: -1px;
 }
@@ -593,7 +589,7 @@ DropDown Menu
 }
 
 .sf-menu li:hover a {
-    color: #7080f5;
+    color: #444444;
 }
 
 .sf-menu li:hover li a {
@@ -617,7 +613,7 @@ DropDown Menu
 .sf-menu>li>a {
     font-family: 'montserrat_medium';
     font-size: 15px;
-    color: #323f52;
+    color: white;
     text-decoration: none;
 }
 
@@ -628,23 +624,23 @@ DropDown Menu
 }
 
 .sf-menu li:hover li a {
-    background: #7080f5;
+    background: #c02942;
     color: #fff;
 }
 
 .sf-menu li:hover li:hover a {
     background: #fff;
-    color: #7080f5;
+    color: #444444;
 }
 
 .sf-menu li:hover li:hover li a {
-    background: #7080f5;
+    background: #c02942;
     color: #fff;
 }
 
 .sf-menu li:hover li:hover li:hover a {
     background: #fff;
-    color: #7080f5;
+    color: #444444;
 }
 
 .sf-with-ul:after {
@@ -674,7 +670,7 @@ Slider
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #7080f5;
+    background: #c02942;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -773,9 +769,9 @@ Slider
 }
 
 .slide-carousel .item .text p a {
-    border: 2px solid #7080f5;
+    border: 2px solid #c02942;
     padding: 10px 20px;
-    background: #7080f5;
+    background: #c02942;
     color: #fff;
     text-decoration: none;
     -webkit-transition: ease .4s all;
@@ -996,7 +992,7 @@ Service Start
     font-size: 32px;
     line-height: 60px;
     color: #fff;
-    background: #7080f5;
+    background: #c02942;
     border: 2px solid transparent;
     -webkit-transition: ease .4s all;
     -moz-transition: ease .4s all;
@@ -1006,9 +1002,9 @@ Service Start
 }
 
 .service .media:hover i {
-    color: #7080f5;
+    color: #c02942;
     background: #fff;
-    border: 2px solid #7080f5;
+    border: 2px solid #c02942;
 }
 
 .service .media:hover {
@@ -1061,7 +1057,7 @@ Counter
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(112, 128, 245, 0.7);
+    background: #c02942;
 }
 
 .auto-script i {
@@ -1333,7 +1329,7 @@ Doctor
 
 .doctor .item .social-icons ul li a:hover {
     background: #fff;
-    color: #7080f5;
+    color: #444444;
 }
 
 /*
@@ -1558,7 +1554,7 @@ Doctor Details
 }
 
 .doctor-detail .contact {
-    background: #7080f5;
+    background: #c02942;
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -1568,7 +1564,7 @@ Doctor Details
     height: 60px;
     line-height: 60px;
     background: #2a2a2a;
-    color: #7080f5;
+    color: #c02942;
     text-align: center;
     margin: 0 auto;
 }
@@ -1729,7 +1725,7 @@ Tewstmonial Section Css
     border-radius: 50%;
     text-align: center;
     background: #fff;
-    color: #7080f5;
+    color: #c02942;
     font-size: 28px;
     font-weight: bold;
     -webkit-transition: all 0.4s ease;
@@ -1738,7 +1734,7 @@ Tewstmonial Section Css
 }
 
 .testimonial-v1 .owl-nav .owl-prev i:hover, .testimonial-v1 .owl-nav .owl-next i:hover {
-    background: #7080f5;
+    background: #c02942;
     border: 2px solid #fff;
     color: #fff;
 }
@@ -2388,7 +2384,7 @@ Blog  Css
 
 .blog-side .right-col button[type="submit"]:hover {
     color: #fff;
-    background: #7080f5;
+    background: #c02942;
 }
 
 .blog-side .right-col .widget {
@@ -2754,7 +2750,7 @@ Footer Section
     content: "";
     position: absolute;
     width: 50px;
-    background: #7080f5;
+    background: #c02942;
     left: 0;
     bottom: 0;
     height: 3px;
@@ -2793,7 +2789,7 @@ Footer Section
 }
 
 .footer-main .footer-col ul li a:hover {
-    color: #7080f5;
+    color: #c02942;
 }
 
 .footer-main .footer-col ul li:before {
@@ -2878,7 +2874,7 @@ Footer Section
 }
 
 .footer-bottom .footer-menu ul li a i:hover {
-    background: #7080f5;
+    background: #c02942;
     color: #fff;
 }
 
@@ -3887,4 +3883,8 @@ Media Query
     .slide-carousel .item .text h2 {
         font-size: 32px;
     }
+}
+
+span.reg_colored {
+    color: #c02942 !important;
 }
