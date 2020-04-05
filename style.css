@@ -3892,3 +3892,7 @@ span.reg_colored {
 .red {
     color: #c02942 !important;
 }
+
+.opacity {
+    opacity: 0.7;
+}
